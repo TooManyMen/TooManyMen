@@ -1963,3 +1963,15 @@ img {
 .boxed-btn-white.large-width {
   width: 220px;
 }
+
+/*  */
+.modalStyles{
+  margin-top: 10% ;
+  width:100%;
+}
+@media (max-width: 767px) {
+  .modalStyles{
+    margin-top: 30% ;
+    width:100%;
+  }
+}
