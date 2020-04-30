@@ -2,7 +2,14 @@
  * GLOBAL VARS
  * -------------------------- */
 // The date you want to count down to
-var targetDate = new Date("2020/05/03 00:00:00");   
+// var targetDate = new Date("2020/05/03 00:00:00");   
+var currentTimezone = moment.tz.guess();
+console.log(currentTimezone);
+var targetDate = moment.tz("2020-05-03 17:00", currentTimezone);
+
+// $('#clock').countdown(givingDay.toDate(), function(event) {
+//   $(this).html(event.strftime('<span class="days">%D</span> : %H : %M : %S'));
+// });
 
 // Other date related variables
 var days;
