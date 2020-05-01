@@ -1974,4 +1974,10 @@ img {
     margin-top: 30% ;
     width:100%;
   }
+  .blockBtn{
+    display:block!important;
+  }
+  .mt-10-m{
+    margin-top:10px ;
+  }
 }
